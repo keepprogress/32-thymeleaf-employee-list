@@ -20,11 +20,11 @@
 		</thead>
 	
 		<tbody>
-			<tr th:each="tempEmployee : ${employees}">
+			<tr th:each="temp : ${employees}">
 			
-				<td th:text=${tempEmployee.firstName} />
-				<td th:text=${tempEmployee.lastName} />
-				<td th:text=${tempEmployee.email} />
+				<td th:text=${temp.firstName} />
+				<td th:text=${temp.lastName} />
+				<td th:text=${temp.email} />
 				
 		</tbody>
 	</table>
